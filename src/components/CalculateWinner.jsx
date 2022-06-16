@@ -16,7 +16,7 @@ function CalculateWinner ({computer,player}) {
                     <h1>You Win</h1>
                 )
             }
-            if(computer === 'scissor'){
+            if(computer === 'sicssors'){
                 return (
                     <h1>You Lose</h1>
                 )
@@ -33,7 +33,7 @@ function CalculateWinner ({computer,player}) {
                     <h1>You Lose</h1>
                 )
             }
-            if(computer === 'scissor'){
+            if(computer === 'sicssors'){
                 dispatch(clickerAction.win(1))
                 return(
                     <h1>You Win!</h1>
@@ -41,7 +41,7 @@ function CalculateWinner ({computer,player}) {
             }
             break;
         case 'sicssors':
-            if(computer === 'scissor'){
+            if(computer === 'sicssors'){
                 return(
                     <h1>Draw</h1>
                 )

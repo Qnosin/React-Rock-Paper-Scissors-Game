@@ -1,6 +1,7 @@
 function useComputerLogic() {
-    let tab = ['rock','paper','scissor'];
-    let randomNum = Math.floor(Math.random() * 2) + 0;
+    let tab = ['rock','paper','sicssors'];
+    let randomNum = Math.floor(Math.random() * 3) + 0;
+    console.log(randomNum);
     let computerPick = tab[randomNum];
     return {computerPick};
 }
