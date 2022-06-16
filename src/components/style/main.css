@@ -57,3 +57,27 @@ main{
         left: 60%;
     }
 }
+
+@media screen and (max-height:578px) {
+    main{
+        min-height: 60vh;
+    }
+}
+
+@media screen and (max-height:523px){
+    .block{
+        width: 100px;
+        height: 100px;
+        padding: 1rem;
+    }
+    .paper{
+        left: 20%;
+        top: -20%;
+    }
+    .sicssors {
+        top: -20%;
+    }
+    .rock {
+        left: 40%;
+    }
+}
