@@ -1,0 +1,55 @@
+.result{
+    position: initial;
+    pointer-events: none;
+}
+.emptyHouse{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(56, 56, 56);
+    opacity: 50%;
+}
+.result-text{
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.results_main{
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.result-area{
+    text-align: center;
+    color: white;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.result-area button{
+    padding-right: 2.2rem;
+    padding-left: 2.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    line-height: .8rem;
+    letter-spacing: 5px;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width:500px){
+    .results_main{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
